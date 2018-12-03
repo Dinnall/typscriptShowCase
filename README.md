@@ -5,12 +5,14 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
 
 # cd client
+# npm install
 # npm run dev
-Open server
+
+Next navigate to server directory
+
 # cd server
+# npm install
 # npm start
 # Open http://localhost:8080 in browser
