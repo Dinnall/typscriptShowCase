@@ -71,7 +71,7 @@ a {
   text-decoration: none;
 }
 a.add_post_link {
-  background: #4d7ef7;
+  background: black;
   color: #fff;
   padding: 10px 80px;
   text-transform: uppercase;
