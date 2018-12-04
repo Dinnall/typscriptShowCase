@@ -29,7 +29,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: "Michael and Lisa's TypeScript"
+      msg: "Michael and Lisa's TypeScript Adventure"
     }
   }
 }

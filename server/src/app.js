@@ -13,15 +13,6 @@ var db = mongodb_conn_module.connect();
 
 var Post = require("../models/post");
 
-app.get('/posts', (req, res) => {
-  res.send(
-    [{
-      title: "Hello World!",
-      description: "Hi there! How are you?"
-    }]
-  )
-})
-
 // Add new post
 app.post('/posts', (req, res) => {
   var db = req.db;

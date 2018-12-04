@@ -9,7 +9,6 @@
         <tr>
           <td>Title</td>
           <td width="550">Description</td>
-          <td width="100" align="center">Action</td>
         </tr>
         <tr v-for="post in posts" :key="post.id">
           <td>{{ post.title }}</td>
@@ -40,6 +39,7 @@ export default {
     async getPosts () {
       const response = await PostsService.fetchPosts()
       this.posts = response.data.posts
+      console.log('SHOW POST:', this.posts)
     }
   }
 }

@@ -6,6 +6,8 @@
 
 ``` bash
 
+Running your mongo database:
+# create a db names carnage
 # cd client
 # npm install
 # npm run dev

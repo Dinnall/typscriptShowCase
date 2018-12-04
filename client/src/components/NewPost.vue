@@ -31,7 +31,7 @@ export default {
         title: this.title,
         description: this.description
       })
-      this.$router.push({ name: 'Posts' })
+      this.$router.push({ name: 'Hello' })
     }
   }
 }
